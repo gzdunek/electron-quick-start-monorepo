@@ -8,7 +8,5 @@
     "start-electron-app": "yarn workspace electron-app start",
     "build-electron-app-native-deps": "yarn workspace electron-app build-native-deps"
   },
-  "workspaces": {
-    "packages": ["packages/*"]
-  }
+  "workspaces": ["packages/*"]
 }
